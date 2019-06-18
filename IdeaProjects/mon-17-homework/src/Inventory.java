@@ -4,15 +4,15 @@ public class Inventory {
             public static void main(String[] args) {
 
                 System.out.println("Please enter the type of product received: ");
-                Scanner product = new Scanner(System.in);
-                String producttype = product.next();
+                Scanner go = new Scanner(System.in);
+                String producttype = go.next();
                 System.out.println("You entered: ");
                 System.out.println("Please enter the cost to us for each: " + producttype);
-                int cost = product.nextInt();
+                int cost = go.nextInt();
                 System.out.print("Please enter the Brand Name: ");
-                String brandname = product.next();
+                String brandname = go.next();
                 System.out.print("Please enter the Number of" +producttype+ " in shiptment");
-                int Numberinshiptment = product.nextInt();
+                int Numberinshiptment = go.nextInt();
                 int totalcost = cost * Numberinshiptment;
                 System.out.println("Shipment Summary: ");
                 System.out.println("the new product is:" +producttype);
