@@ -6,16 +6,25 @@ public class tentablemultiplication {
 //        Scanner keyboard = new Scanner(System.in);
 //        System.out.print("Enter an integer n:");
 //        int n = keyboard.nextInt();
-        int table = 10;
 
 
-        for (int num = 0; num <= 10; num++) {
-        String multip = (num + "*" + table + "=" +num * table);
-            System.out.println(multip);
+
+
+
+        for (int table = 0;table <= 10; table++) {
+
+                for (int num = 1; num <= 12; num++) {
+
+                        String   multip = (table+ "*" + num + "=" + table*num);
+                        System.out.println(multip);
+
+
+                        }System.out.println();
+
+                }
+
+            }
 
 
         }
 
-
-    }
-}
